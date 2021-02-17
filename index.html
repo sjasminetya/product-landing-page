@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="page">
+            <header id="header">
+                <div class="logo">
+                    <img src="./image/fashion.png" alt="logo fashion" id="header-img">
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#fashion-video">Fashion Video</a></li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container"></div>
+                <section id="news">
+                    <h2>Subscribe, so you don't miss the latest news!</h2>
+                    <form action="https://www.freecodecamp.com/email-submit" id="form">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <input type="submit" id="submit" value="Subscribe!" class="btn">
+                    </form>
+                </section>
+            
+
+            <div class="container">
+                <section id="features">
+                    <div class="grid">
+                        <div class="icon"><i class="fas fa-3x fa-calendar-check"></i></div>
+                        <div class="desc">
+                            <h2>On time</h2>
+                            <p>We strive to deliver goods in a timely manner, otherwise we will reward you for delay</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="icon"><i class="fab fa-3x fa-cc-paypal"></i></div>
+                        <div class="desc">
+                            <h2>Product purchases</h2>
+                            <p>Product purchases can be made worldwide using PayPal as the medium</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="icon"><i class="fas fa-3x fa-box"></i></div>
+                        <div class="desc">
+                            <h2>Quality Product</h2>
+                            <p>Products are wrapped in boxes neatly and do not use plastic</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="fashion-video">
+                    <iframe id="video" height="315" src="https://youtu.be/AXOfw9x-hVw" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="pricing">
+                    <div class="product" id="zara">
+                        <div class="name-product">Zara T-shirt</div>
+                        <h2>$10</h2>
+                        <button class="btn">BUY</button>
+                    </div>
+                    <div class="product" id="h&m">
+                        <div class="name-product">H&M T-shirt</div>
+                        <h2>$20</h2>
+                        <button class="btn">BUY</button>
+                    </div>
+                    <div class="product" id="mangi">
+                        <div class="name-product">Mango T-shirt</div>
+                        <h2>$25</h2>
+                        <button class="btn">BUY</button>
+                    </div>
+                </section>
+                <footer>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <span>Copyright 2020, Fashion Product</span>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
